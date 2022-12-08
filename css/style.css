@@ -6,12 +6,24 @@ body {
     font-family:'Raleway', sans-serif;
 }
 header{
+    z-index: 100;
     background-color: black;
     border-bottom: 2px solid gray;
     position: sticky;
     top: 0px;
     display: flex;
     justify-content: space-between;
+}
+header img{
+    animation: ease-in animacion 1s;
+}
+@keyframes animacion {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 h1 {
     text-align: center;
@@ -78,9 +90,14 @@ footer ul {
     justify-items: center;
 }
 
-.galeria-container img{
+.galeria-container img {
     width: 400px;
     height: 400pxs;
+    transition: all 2s;
+}
+
+.galeria-container img:hover {
+    transform: scale(1.2);
 }
 
 /*contacto*/

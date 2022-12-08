@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="shortcut icon" href="./olivo/redon.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="shortcut icon" href="./olivo/redon.png" type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
     <title>En tu piel,en tu sangre</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
         <section class="imag-artista">
             <article class="article-info">
                 <img src="./olivo/fotoolivocor.jpg" alt="imagen-principal">
-                <p>
+                <p data-aos="fade-left" data-aos-duration="2000">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos voluptatum, 
             cupiditate voluptatem quasi assumenda itaque iste? Deleniti provident vitae sed.
             Nisi ipsam quod modi vitae voluptatum debitis eum adipisci.
@@ -44,7 +45,7 @@
             </article>
             <article class="article-info">
                 <img src="./olivo/olivo2.jpeg" alt="perfil">
-                <p>
+                <p data-aos="fade-left" data-aos-duration="2000">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Sit dolorem sint aut natus sapiente cupiditate eaque voluptatibus facilis nobis, 
                     cumque ipsa repellendus illo ad adipisci explicabo incidunt optio dignissimos eligendi!
@@ -74,5 +75,9 @@
             <li>Instagram</li>
         </ul>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        </script>
 </body>
 </html>
