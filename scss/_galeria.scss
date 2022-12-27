@@ -1,0 +1,19 @@
+/*galeria*/
+.galeria-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 80px;
+    justify-items: center;
+}
+
+.galeria-container img {
+    width: 400px;
+    height: 400pxs;
+    transition: all 2s;
+}
+
+.galeria-container img:hover {
+    transform: scale(1.2);
+}

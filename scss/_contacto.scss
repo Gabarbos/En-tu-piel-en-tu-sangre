@@ -1,0 +1,31 @@
+/*contacto*/
+.contacto-main{
+    height: 75vh;
+    }
+    
+    .form-container {
+        display: flex;
+        justify-content: baseline;
+        margin: 30px 0px;
+        padding: 30pxs;
+    }
+    video{
+        width: 450; height: 350;
+    }
+    
+    
+    .form-container--fieldset{
+        padding: 20px;
+        background-color: $negro(0, 0, 0);
+        border: 2px solid $negro(0, 0, 0);
+        border-radius: 5px;
+    }
+    
+    .contacto-fondo {
+        background-image: url(../olivo/imagtato/11.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    

@@ -1,0 +1,23 @@
+
+/*index*/
+
+.imag-artista img {
+    width: 400px;
+    height: 400pxs;
+    margin: 15px;
+}
+.video-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.article-info {
+    padding: 35px;
+    display: flex;
+    align-items: center;
+}
+.article-info p {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    padding: 20px;
+}

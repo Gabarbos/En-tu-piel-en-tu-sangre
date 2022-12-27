@@ -1,0 +1,25 @@
+{
+  "name": "proyectocodder",
+  "version": "1.0.0",
+  "description": "por: Gabriela Barbosa.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "sass scss/style.scss styles/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabarbos/En-tu-piel-en-tu-sangre.git"
+  },
+  "author": "Gabriela Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabarbos/En-tu-piel-en-tu-sangre/issues"
+  },
+  "homepage": "https://github.com/Gabarbos/En-tu-piel-en-tu-sangre#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.57.1"
+  }
+}
