@@ -14,12 +14,14 @@
     }
     
     
-    .form-container--fieldset{
-        padding: 20px;
-        background-color: $negro(0, 0, 0);
-        border: 2px solid $negro(0, 0, 0);
-        border-radius: 5px;
-    }
+    /*formulario*/
+.form-container--fieldset{
+    max-width: 25em;
+    padding: 1.3em;
+    background-color: rgba(120, 119, 123, 0.3);
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
+}
     
     .contacto-fondo {
         background-image: url(../olivo/imagtato/11.webp);

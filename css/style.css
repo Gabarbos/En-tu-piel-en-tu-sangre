@@ -117,19 +117,22 @@ height: 75vh;
     display: flex;
     justify-content: baseline;
     margin: 30px 0px;
-    padding: 30pxs;
+    padding: 20pxs;
 }
 video{
     width: 450; height: 350;
 }
 
 
+/*formulario*/
 .form-container--fieldset{
-    padding: 20px;
-    background-color: rgb(0, 0, 0);
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 5px;
+    max-width: 25em;
+    padding: 1.3em;
+    background-color: rgba(120, 119, 123, 0.3);
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
 }
+
 
 .contacto-fondo {
     background-image: url(../olivo/imagtato/11.webp);
@@ -148,7 +151,7 @@ video{
         align-items: center;
     }
     header img{
-        width: 35%;
+        width: 60%;
     }
     .menu-nav{
         justify-content: center;
@@ -187,7 +190,7 @@ video{
         align-items: center;
     }
     header img{
-        width: 30%;
+        width: 55%;
     }
     .menu-nav{
         justify-content: center;
